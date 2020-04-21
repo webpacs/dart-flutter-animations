@@ -10,8 +10,7 @@ class HomePage extends StatefulWidget {
   _HomePageState createState() => _HomePageState();
 }
 
-class _HomePageState extends ModularState<HomePage, HomeController>
-    with SingleTickerProviderStateMixin {
+class _HomePageState extends ModularState<HomePage, HomeController> {
   double altura = 0;
   double top = 0;
 
